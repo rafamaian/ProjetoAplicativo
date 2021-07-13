@@ -6,12 +6,35 @@
     </ion-buttons>
 
     <ion-title>Sobre</ion-title>
+
+    <ion-icon name="phone-portrait" slot="end" size="large" class="ion-margin-end" routerLink="/home" color="primary">
+    </ion-icon>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding-horizontal">
 
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam id, esse minima maiores quo quam modi unde
-    corrupti dolores cupiditate, accusamus ipsam officia harum repellat officiis nisi numquam atque odit?</p>
+  <p>Este Aplicativo foi criado com o intuito de informar através de artigos, curiosidades de
+    maneira geral e do cotidiano. Seu proposito é levar um pouco de informação para usuários logados de maneira
+     simplificada.</p>
+
+    <ion-list id="inbox-list">
+      <ion-img src="assets/sobre03.gif" alt="Meu App 01" class="logotipo"></ion-img>
+      <ion-list-header>Leia nossos Artigos na Página Inicial</ion-list-header>
+      <ion-note></ion-note>
+
+ </ion-list>
+
+ <ion-button class="ion-margin-vertical" expand="block" color="warning" routerLink="/home">
+  <ion-icon name="home" slot="start"></ion-icon>
+  Página Inicial
+</ion-button>
+
+
+
+
 
 </ion-content>
+
+
